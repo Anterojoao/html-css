@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+#principal{
+    background-color: rgb(38, 130, 38);
+}
+.principal0a{
+    background-image: linear-gradient(to right, green,rgb(3, 183, 3),rgb(2, 219, 2));
+    background-image: radi;
+    text-align: right;
+    border-radius: 3%;
+}
+
+.intermediario{
+    color:white;
+}

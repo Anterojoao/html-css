@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        h1{
+            box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.403);
+        }
+
+        header{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.347);
+        }
+
+        nav>a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        article{
+            background-color: lightgrey;
+        }
+
+        article > aside{
+            background-color: rgb(126, 124, 124);
+            padding: 5px;
+        }
+
+        main{
+            background-color: wheat;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        footer{
+            background-color: rgb(84, 64, 64);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        
+        footer> p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">b</a>
+            <a href="#">a</a>
+            <a href="#">c</a>
+            <a href="#">d</a>
+            <a href="#">e</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assutos"></section>
+        <search id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat pariatur voluptates fuga harum ratione, deserunt aperiam omnis deleniti in saepe assumenda sed quos numquam ipsam ipsum, incidunt magni nulla eaque.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </search>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Cursoemvideo</p>
+    </footer>
+</body>
+</html>
