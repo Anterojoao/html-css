@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            background-color:cadetblue;
+        }
+
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+
+        thead{
+            background-color: gray;
+        }
+
+        th ,td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .direcao{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table>
+    
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Disciplinas</th>
+                <th colspan="2" scope="colgroup">notas</th>
+                <th rowspan="2" scope="col">d</th>
+            </tr>
+            <th>nota1</th>
+            <th rowspan="2">nota2</th>
+            
+         
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Exatas</th>
+                <td>Matematica</td>
+                <td>5</td>
+                <td>4</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>p</td>
+                <td>p</td>
+                <td>p</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>p</td>
+                <td>p</td>
+                <td>p</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="row" class="direcao">Média de Exatas</th>
+                <td>00000</td>
+            </tr>
+
+            <tr>
+                <th rowspan="4" scope="rowgroup">humanas</th>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>5</td>
+                </tr>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row" class="direcao">Total</th>
+                <td>00000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <table>
+        <thead>
+             <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">notas</th>
+                <tr>
+                    <th>d</th>
+                    <th >d</th>
+                </tr>
+                <th>dad</th>
+                
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">dad</th>
+                <td>dakkd</td>
+                <td>da</td>
+
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
